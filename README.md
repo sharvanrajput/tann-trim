@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧰 Tann-Trim
 
-## Getting Started
+A modern, performant web application built with **Next.js 15**, **React 19**, and **Tailwind CSS 4**.  
+This project leverages Axios for API communication and React Icons for intuitive UI icons.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[🔗 View Live Project](https://tann-trim-gray.vercel.app/)  
+[🔗 GitHub Repository](https://github.com/sharvanrajput/tann-trim.git)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Tech Stack
 
-## Learn More
+- **Next.js 15.3.3**  
+- **React 19**  
+- **Tailwind CSS 4**  
+- **Axios**  
+- **React Icons**
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 🔹 Fully Responsive Design  
+- 🔹 Clean, Reusable React Components  
+- 🔹 Axios-based API Integration  
+- 🔹 Tailwind CSS for Utility-First Styling  
+- 🔹 Iconography with React Icons  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📁 Folder Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+/tann-trim
+│
+├── /app # Pages and layouts (Next.js App Router)
+│ ├── layout.jsx # Main layout
+│ ├── page.jsx # Homepage rendering product and category components
+│ └── globals.css # Global styles (Tailwind CSS)
+│
+├── /components # React components
+│ ├── ProductCard.jsx # Displays individual product information
+│ └── Category.jsx # Displays product categories
+│
+├── /public # Static assets (images, icons)
+│
+├── tailwind.config.js # Tailwind CSS config
+├── next.config.js # Next.js config
+├── package.json # Dependencies and scripts
+└── README.md # Project documentation
